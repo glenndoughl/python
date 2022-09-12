@@ -1,10 +1,14 @@
-letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+letters = [
+    
+]
+
 
 def main():
     ntimes = int(input("Enter a number: "))
     genstring(ntimes)
 
-def genstring (n):
+
+def genstring(n):
     repetition = int(n / 26)
     remainder = int(n % 26)
     symbol = ""
@@ -13,7 +17,8 @@ def genstring (n):
             symbol = symbol + letters[letter]
             print(symbol.upper())
     for remain in range(remainder):
-            symbol = symbol + letters[remain]
-            print(symbol.upper())
+        symbol = symbol + letters[remain]
+        print(symbol.upper())
+
 
 main()
