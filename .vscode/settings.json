@@ -1,0 +1,14 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "testdb-postgres.csiq3pk4unqp.ap-southeast-1.rds.amazonaws.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "AWS RDS Postgres",
+            "database": "testdb",
+            "username": "postgres",
+            "password": "test1234"
+        }
+    ]
+}

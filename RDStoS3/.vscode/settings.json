@@ -1,0 +1,27 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "testdb-mysql.csiq3pk4unqp.ap-southeast-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "AWS RDS - testdb-mysql",
+            "database": "testdb",
+            "username": "admin",
+            "password": "test1234"
+        },
+        {
+            "previewLimit": 50,
+            "server": "testdb-postgres.csiq3pk4unqp.ap-southeast-1.rds.amazonaws.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "AWS RDS - testdb-postgres",
+            "database": "testdb",
+            "username": "postgres",
+            "password": "test1234"
+        }
+    ]
+}

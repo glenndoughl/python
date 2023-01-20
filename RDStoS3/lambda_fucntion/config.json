@@ -1,0 +1,14 @@
+{
+    "rds": {
+    "dbengine": "mysql",
+    "dbhost": "testdb-mysql.csiq3pk4unqp.ap-southeast-1.rds.amazonaws.com",
+    "dbname": "testdb",
+    "dbuser": "admin",
+    "dbpassword": "test1234",
+    "dbport": "3306"
+    },
+    "s3" : {
+      "bucket": "testbucket-postgres",
+      "path": "lambdaRUN"
+    }
+  }
