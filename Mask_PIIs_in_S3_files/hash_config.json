@@ -1,0 +1,15 @@
+{
+    "CONNECTION_TYPE": "s3",
+    "PREFIX": "",
+    "TABLE_LEVEL": 4,
+    "FORMAT": "csv",
+    "REGEX": "regex",
+    "NORMAL_COLUMNS": [
+        "col1",
+        "col2"
+    ],
+    "STRINGTYPE_JSON_COLS":{
+            "COLUMNS": ["col1", "col2"],
+            "KEYS": ["key1", "key2"]
+        }
+}
