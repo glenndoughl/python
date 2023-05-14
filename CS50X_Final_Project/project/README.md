@@ -77,7 +77,6 @@ In the web-app login page, there will be users authentication that will occur on
     * User entered wrong password
 
 The web-app also has registration page that will ask for username, password and confirmation of the password. Some error handling are in place as well such as:
-
     * User didn't enter a username
     * User didn't enter a password
     * User didn't enter a password confirmation
