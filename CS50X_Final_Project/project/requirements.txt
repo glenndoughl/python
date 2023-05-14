@@ -1,0 +1,8 @@
+cs50
+requests
+streamlit
+pandas
+streamlit-lottie
+streamlit_option_menu
+folium
+streamlit-folium
